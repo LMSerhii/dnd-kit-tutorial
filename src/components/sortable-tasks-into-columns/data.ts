@@ -9,7 +9,6 @@ export const COLUMNS: Column[] = [
   { id: "DEPLOYED", title: "Deployed" },
   { id: "CANCELLED", title: "Cancelled" },
 ];
-
 export const TASKS: Task[] = [
   {
     id: "1",

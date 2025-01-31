@@ -28,11 +28,14 @@ const DraggableTasksIntoColumns = () => {
   };
 
   return (
-    <div className="p-4">
-      <div className="flex gap-8">
-        <DndContext onDragEnd={handleDragEnd}>
-          <ColumnList tasks={tasks} />
-        </DndContext>
+    <div className="p-4 mx-auto grid gap-2 my-10">
+      <h2 className="text-2xl font-bold-mb-4">Draggable Tasks Into Columns</h2>
+      <div className="p-4">
+        <div className="flex gap-8">
+          <DndContext onDragEnd={handleDragEnd}>
+            <ColumnList tasks={tasks} />
+          </DndContext>
+        </div>
       </div>
     </div>
   );
