@@ -34,4 +34,10 @@ export const TASKS: Task[] = [
     description: "Write unit tests for core functionality",
     status: "DONE",
   },
+  {
+    id: "5",
+    title: "Another card",
+    description: "Deployment data",
+    status: "DEPLOYED",
+  },
 ];
